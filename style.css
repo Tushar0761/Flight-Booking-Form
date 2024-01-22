@@ -1,0 +1,61 @@
+* {
+  word-spacing: 2px;
+  font-size: 15px;
+}
+body {
+  background: url(./Images/bg.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.full_form {
+  border: none;
+  background: transparent;
+  height: auto;
+
+  max-width: 50%;
+  margin: 0 auto 20px auto;
+  text-transform: capitalize;
+}
+span {
+  font-weight: 700;
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+  align-items: center;
+}
+fieldset {
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 15px;
+}
+fieldset > legend {
+  top: -15px;
+  position: absolute;
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  background: white;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#hidden {
+  width: max-content;
+}
+
+#invalidemail,
+#conemailerr,
+#invalidNumber,
+#pswerr {
+  opacity: 0;
+  min-height: 1.5em;
+  max-height: auto;
+}
+
+.shadow-danger {
+  box-shadow: red;
+}
